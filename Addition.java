@@ -1,25 +1,14 @@
-public class Addition extends Operation{
-    private Nombre operande1;
-    private Nombre operande2;
-
-    public Addition(Nombre operandeNum1, Nombre operandeNum2){
-        this.operande1 = operandeNum1; 
-        this.operande2 = operandeNum2; 
+public class Addition extends Operation {
+    
+    public Addition(Nombre operande1, Nombre operande2) {
+        super(operande1, operande2);
     }
 
-    public int valeur(){
-        return operande1.valeur() + operande2.valeur();
-    }
-
-    public Nombre getOperande1() {
-        return operande1;
-    }
-
-    public Nombre getOperande2() {
-        return operande2;
+    public int valeur() {
+        return getOperande1().valeur() + getOperande2().valeur();
     }
 
     public String toString() {
-        return operande1 + " + " + operande2 + "="+ valeur();
+        return "(" + getOperande1() + " + " + getOperande2() + ")";
     }
 }

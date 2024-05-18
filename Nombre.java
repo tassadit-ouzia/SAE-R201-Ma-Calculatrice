@@ -1,13 +1,13 @@
 public class Nombre {
     private int valeurNombre; 
 
-    public Nombre(int valnb){
-        this.valeurNombre= valnb;
+    public Nombre(int valNb){
+        this.valeurNombre= valNb;
     }
 
 
     public int valeur(){
-        return valeurNombre;
+        return this.valeurNombre;
     }
 
     public String toString(){
