@@ -9,6 +9,9 @@ public class division extends Operation {
 
 
     public int valeur(){
+        if (getOperande2().valeur() == 0) {
+            throw new ArithmeticException("Division par zéro.");
+        }
         return getOperande1().valeur()/getOperande2().valeur();
     }
 

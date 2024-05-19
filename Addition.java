@@ -5,7 +5,7 @@ public class Addition extends Operation {
     }
 
     public int valeur() {
-        return getOperande1().valeur() + getOperande2().valeur();
+        return gtOperande1().valeur() + getOperande2().valeur();
     }
 
     public String toString() {

@@ -4,17 +4,18 @@ public class CalculatriceSimple {
         Nombre dix = new Nombre(10);
 
         Soustraction s = new Soustraction(dix, six);
-        System.out.println("le résultat est:" + s.valeur());
+        System.out.println(s + " = " + s.valeur());
 
         Multiplication m = new Multiplication(dix, six);
-        System.out.println("le résultat est:" + m.valeur());
+        System.out.println(m + " = " + m.valeur());
 
         Addition a = new Addition(dix, six);
-        System.out.println("le résultat est:" + a.valeur());
+        System.out.println(a + " = " + a.valeur());
 
         try {
             Division d = new Division(dix, six);
-            System.out.println("le résultat est:" + d.valeur());
+            System.out.println(d + " = " + d.valeur());
+
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
