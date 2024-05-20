@@ -1,4 +1,4 @@
-public class Soustraction extends Operation{
+public class Soustraction extends Opération{
     
     public Soustraction(Nombre operande1, Nombre operande2){
        super(operande1, operande2);

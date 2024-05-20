@@ -1,4 +1,4 @@
-public class Multiplication extends Operation{
+public class Multiplication extends Opération{
     
     public Multiplication(Nombre operande1, Nombre operande2){
        super(operande1, operande2);

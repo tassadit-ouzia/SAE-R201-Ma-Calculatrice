@@ -1,4 +1,4 @@
-public class Division extends Operation {
+public class Division extends Opération {
 
     public Division(Nombre operande1, Nombre operande2) {
         super(operande1, operande2);
