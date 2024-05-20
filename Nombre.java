@@ -1,4 +1,5 @@
 public class Nombre {
+    
     private int valeurNombre; 
 
     public Nombre(int valNb){
