@@ -6,4 +6,4 @@ public class TestAddition {
         Addition addition = new Addition(six, dix);
         System.out.println("le résultat est " + addition.valeur());
     }
-}
+} 
