@@ -1,5 +1,6 @@
 public abstract class Operation {
     
+    
     private Nombre operande1;
     private Nombre operande2;
 
