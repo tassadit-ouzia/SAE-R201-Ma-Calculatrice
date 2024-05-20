@@ -1,4 +1,5 @@
 public class Nombre {
+    
     private int valeurNombre; 
 
     public Nombre(int valNb){
@@ -11,6 +12,6 @@ public class Nombre {
     }
 
     public String toString(){
-        return "le nombre est:"+ this.valeurNombre;
+        return "le nombre est:"+ this.valeurNombre; 
     }
 }

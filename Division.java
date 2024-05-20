@@ -1,4 +1,4 @@
-public class division extends Operation {
+public class Division extends Operation {
 
     public Division(Nombre operande1, Nombre operande2) {
         super(operande1, operande2);
@@ -9,9 +9,6 @@ public class division extends Operation {
 
 
     public int valeur(){
-        if (getOperande2().valeur() == 0) {
-            throw new ArithmeticException("Division par zéro.");
-        }
         return getOperande1().valeur()/getOperande2().valeur();
     }
 
